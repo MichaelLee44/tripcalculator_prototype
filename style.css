@@ -1,0 +1,99 @@
+/*
+    Michael Kellems
+    CIT 215
+    Prof. Kane
+    Date
+*/
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808082;
+}
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: underline #FFCE0B;
+    background-color: #061930;
+    padding: 5px;
+}
+
+#footer{
+    width: 100%;
+    background-color: #061930;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    box-sizing: content-box;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+#footer p{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+}
+
+#footer a img{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    opacity: .8;
+}
+
+#links{
+    position: absolute;
+    padding: 0;
+    right: 0;
+    height:100%;
+}
+
+a{
+    border: none;
+}
+
+body{
+    margin: 0 auto;
+}
+
+#body{
+    background-color: #808082;
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    height: 50%;
+    width: 90%;
+    background-color: white;
+    border: 2.5px solid #061930;
+    border-radius: 25px;
+    margin-left: 5%;
+    position: absolute;
+    bottom: 150px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+#passselector{
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid #061930;
+}
+
+#selectionbar{
+    width: 90%;
+    margin-left: 5%;
+    height: 25px;
+    position: absolute;
+    top: 80px;
+}

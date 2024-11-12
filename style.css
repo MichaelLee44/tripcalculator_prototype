@@ -10,6 +10,10 @@ html{
     color: #808082;
 }
 
+#header{
+    z-index: 2;
+}
+
 h1{
     text-align: center;
     margin: 0 auto;
@@ -28,7 +32,7 @@ h1{
     left: 0;
     box-sizing: content-box;
     margin-bottom: 10px;
-    z-index: 1;
+    z-index: 2;
 }
 
 #footer p{
@@ -80,6 +84,7 @@ body{
     bottom: 150px;
     overflow-y: scroll;
     box-sizing: border-box;
+    z-index: 0;
 }
 
 #passselector{
@@ -90,10 +95,39 @@ body{
     border: 2px solid #061930;
 }
 
+li button{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border: none;
+    color: #061930;
+}
+
+
 #selectionbar{
     width: 90%;
     margin-left: 5%;
-    height: 25px;
+    height: 50px;
     position: absolute;
     top: 80px;
+}
+
+#selectionmenu{
+    height: 100px;
+    width: 100%;
+    border: 2.5px solid #061930;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    z-index: 0;
+}
+
+.optionbutton{
+    width:100%;
+    height:50px;
+    background-color: white;
+    color: #061930;
+    border: none;
+    border-bottom: 1px solid #061930;
+    box-sizing: border-box;
 }
